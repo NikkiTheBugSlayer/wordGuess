@@ -81,6 +81,7 @@ const GamePage = () => {
           className="col mb-3 p-3"
           style={{ border: '1px dotted #1a1a1a' }}
         >
+          Hello Word Guess
           {!isComplete &&
             <div data-cy="game-area">
               <Countdown guesses={gameState?.guessesRemaining} hasGuessed={hasGuessed} isCorrect={gameState?.isCorrect} />
